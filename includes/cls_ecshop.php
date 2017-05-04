@@ -150,7 +150,7 @@ class ECS
      */
     function http()
     {
-        return (isset($_SERVER['HTTPS']) && (strtolower($_SERVER['HTTPS']) != 'off')) ? 'https://' : 'http://';
+        return '//';
     }
 
     /**
